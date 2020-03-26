@@ -1,5 +1,10 @@
+img {
+  height:50%;
+  width: 50%;
+}
+
 #chris {
-  display: none:
+  display: none;
 }
 
 #patrick {
@@ -7,5 +12,13 @@
 }
 
 #michelle {
+  display: none;
+}
+
+.container {
+  padding: 30px;
+}
+
+.has-warning {
   display: none;
 }
