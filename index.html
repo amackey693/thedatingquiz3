@@ -9,32 +9,48 @@
   </head>
   <body>
     <div class="container">
-      <form class="form-horizontal" id="dating">
-        <label for="colorChoice">Choose fav color</label>
-          <select class="form-control" id="colorChoice">
-          <option value=1>Red</option>
-          <option value=2>Blue</option>
-          <option value=3>Black</option>
-        </select>
-  
-        <label for="favDrink">Choose your favorite drink!</label>
-          <select class="form-control" id="favDrink"> 
-            <option value=1>Soda</option>
-            <option value=2>Coffee</option>
-            <option value=3>Tea</option>
+      <div class ="well">
+        <form class="form-horizontal" id="dating">
+          <label for="colorChoice">Choose fav color</label>
+            <select class="form-control" id="colorChoice">
+            <option value=0></option> 
+            <option value=1>Red</option>
+            <option value=2>Blue</option>
+            <option value=3>Black</option>
+          </select>
+    
+          <label for="favDrink">Choose your favorite drink!</label>
+            <select class="form-control" id="favDrink"> 
+              <option value=0></option> 
+              <option value=1>Soda</option>
+              <option value=2>Coffee</option>
+              <option value=3>Tea</option>
+            </select>
+          </form>
+
+          <label for="favFood">Choose your favorite drink!</label>
+          <select class="form-control" id="favFood"> 
+            <option value=0></option> 
+            <option value=1>Sushi</option>
+            <option value=2>Spaghetti</option>
+            <option value=3>Pizza</option>
           </select>
         </form>
+        <button type="submit" class="btn-dark">Find Out Who Your Celeberty Is!</button>
+      </div>
 
-        <label for="favFood">Choose your favorite drink!</label>
-        <select class="form-control" id="favFood"> 
-          <option value=1>Soda</option>
-          <option value=2></option>
-          <option value=3>Pizza</option>
-        </select>
-      </form>
-  
-
-
+      <div id="chris">
+        <p>Congrats you got Chris!</p>
+        <img src="img/ChrisHemsworth.jpg">     
+      </div>
+      <divsults id="patrick">
+        <p>Cool you got Patrick!</p>
+        <img src="img/PatrickDempsey.jpg" alt="">
+      </div>
+      <div>
+        <p>Wow you got Michelle</p>
+        <img src="img/MichelleObama.jpg" alt="">
+      </div>
     </div>
   </body>
 </html>
